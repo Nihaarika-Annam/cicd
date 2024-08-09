@@ -2,7 +2,9 @@ FROM openjdk:11
 
 EXPOSE 8080
 
-RUN yum install -y git
+FROM docker.io/library/openjdk:11
+
+RUN apt-get update && apt-get install -y git
 
 COPY . /app
 
