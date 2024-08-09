@@ -95,9 +95,8 @@
     <artifactId>maven-dependency-plugin</artifactId>
     <version>3.6.1</version>
 <plugin>-->
-
-
 </plugins>
+	<finalname>devops-image</finalname>
 </build>
 </project>
 
